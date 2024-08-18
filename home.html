@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css files  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SHC Shop</title>
+  </head>
+  <body>
+    <div class="home overflow-hidden">
+      <!-- start nav  -->
+      <div class="nav-bar shadow">
+        <div class="container">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <a href="#" class="navbar-brand fw-bold fs-3"
+                >S<span class="text-primary">H</span>C</a
+              >
+
+              <div class="right d-flex gap-2 btns">
+                <a href="cart.html" class="btn btn-info fw-semibold me-2"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+                <a
+                  href="index.html"
+                  class="btn btn-outline-danger fw-semibold logout text-dark"
+                  >LogOut</a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- end nav  -->
+      <!-- start content -->
+      <div class="content">
+        <!-- start container  -->
+        <section class="py-5">
+          <div class="container px-4 px-lg-5 mt-5">
+            <div id="p-container" class="row">
+              <div class="w-100 h-100 d-flex justify-content-center">
+                <i class="fa-solid fs-1 fa-arrows-spin fa-spin"></i>
+              </div>
+            </div>
+            <div id="alert" class="w-25 position-fixed end-0 bottom-0"></div>
+          </div>
+        </section>
+        <!-- end container  -->
+      </div>
+      <!-- end content -->
+    </div>
+    <!-- scripts start -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/home.js"></script>
+    <!-- scripts  end-->
+  </body>
+</html>

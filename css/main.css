@@ -1,0 +1,34 @@
+/* global start */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    outline: none;
+}
+body { 
+    background: #6495ed57;
+}
+
+
+.login-container {
+    max-width: 600px !important;
+}
+/* cart page */
+.up,.down { 
+    height: 40px;
+}
