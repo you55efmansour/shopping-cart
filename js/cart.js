@@ -112,3 +112,8 @@ function addAlert(id) {
     clearTimeout(remove);
   }, 2000);
 }
+
+// make sure from the user
+const token = localStorage.getItem("token");
+
+token ? "" : (window.location = "index.html");
