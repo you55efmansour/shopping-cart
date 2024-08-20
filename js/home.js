@@ -17,7 +17,7 @@ function getProducts() {
       row.innerHTML = "";
       products.forEach((product) => {
         const productCard = `
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4" data-aos="flip-down" data-aos-duration="1000">
                 <div class="card h-75 shadow-lg">
                     <div class="h-50 overflow-hidden  p-2 d-flex align-items-center kustify-content-center">
                         <img src="${
