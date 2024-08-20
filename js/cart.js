@@ -73,7 +73,7 @@ function getProducts() {
   });
   getPrice();
 }
-getProducts();
+products ? getProducts():"";
 
 // delete product
 function deleteProduct(i) {
@@ -101,7 +101,7 @@ function addAlert(id) {
   let alertId = Math.random(id);
   alertContainer.insertAdjacentHTML(
     "beforeend",
-    `<div class="alert alert-danger w-50 alert-dismissible fade show" id="alert-${alertId}" role="alert">
+    `<div class="alert alert-danger alert-dismissible fade show" id="alert-${alertId}" role="alert">
               <strong>Deleted</strong>
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>`
